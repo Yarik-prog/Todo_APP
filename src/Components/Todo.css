@@ -1,0 +1,38 @@
+.todo{
+    display:flex;
+    flex-direction:column;
+    padding-top:100px;
+    margin:0 auto;
+    max-width:600px;
+}
+.todo__form{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    gap:15px;
+}
+.todo__list{
+    margin-top:50px;
+    list-style-type:none;
+}
+.todo__item{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 2px;
+    background-color: var(--green);
+    transition: all 0.3s ease 0s;;
+}
+.todo__item:hover {
+    transform: translateX(5px);
+  }
+.todo__desc{
+    width:100%;
+    max-width: 400px;
+    word-wrap:break-word;
+}
+.todo__icon{
+    cursor: pointer;
+}
